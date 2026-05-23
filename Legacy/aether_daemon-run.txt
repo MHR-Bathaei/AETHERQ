@@ -1,0 +1,8 @@
+[AETHER DAEMON] Online and listening for telemetry...
+0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6,0.1,0.2,0.3,0.4,0.5,0.6
+{"status":"success", "latency_us":40, "B_field":[0.349322,-0.167988,0.806718]}
+0.1,0.2,0.3
+{"status":"error", "message":"Malformed payload. Expected 48 float values."}
+exit
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  stof

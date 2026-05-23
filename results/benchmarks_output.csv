@@ -1,0 +1,5 @@
+metric,fp32_latency_us,int8_emulated_latency_us
+min,3.7,35.2
+max,222.3,274.7
+mean,4.10088,38.3231
+p99,10.3,72.2

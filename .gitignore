@@ -1,0 +1,15 @@
+# Compiled Executables
+*.exe
+benchmarker
+benchmarker_simd
+aether_daemon
+dense_pipeline5
+
+# External Dependencies
+eigen/
+eigen-master/
+
+# System-specific configuration files
+.DS_Store
+Thumbs.db
+.vscode/

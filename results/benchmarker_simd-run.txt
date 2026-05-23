@@ -1,0 +1,9 @@
+[STARTING] Profiling Core Pipeline over 5000 iterations...
+
+=======================================
+  AMD HARDWARE PROFILING SUITE METRICS
+=======================================
+FP32 Profile  -> Min: 3.7us | Mean: 4.10088us | P99: 10.3us
+INT8 Profile  -> Min: 35.2us | Mean: 38.3231us | P99: 72.2us
+=======================================
+[SUCCESS] Profiling complete. Data locked into 'benchmarks_output.csv'.

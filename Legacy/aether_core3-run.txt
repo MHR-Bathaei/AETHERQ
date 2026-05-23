@@ -1,0 +1,15 @@
+=======================================
+ AETHER-Q: SILICON QUANTIZATION CORE
+=======================================
+T+0 | Q-DT: 114us | Physics Error: 1.89673 | B-Field: [0.0700833, -0.144929, 0.28451]
+T+1 | Q-DT: 56us | Physics Error: 1.97136 | B-Field: [0.0739162, -0.147241, 0.295704]
+T+2 | Q-DT: 56us | Physics Error: 2.0395 | B-Field: [0.0789051, -0.146998, 0.305925]
+T+3 | Q-DT: 49us | Physics Error: 2.38683 | B-Field: [0.082738, -0.15077, 0.316816]
+T+4 | Q-DT: 49us | Physics Error: 2.1332 | B-Field: [0.0852933, -0.151196, 0.31998]
+T+5 | Q-DT: 48us | Physics Error: 2.18714 | B-Field: [0.09302, -0.150283, 0.328071]
+T+6 | Q-DT: 47us | Physics Error: 2.23581 | B-Field: [0.0904647, -0.150587, 0.335372]
+T+7 | Q-DT: 47us | Physics Error: 2.31288 | B-Field: [0.0994082, -0.150405, 0.346932]
+T+8 | Q-DT: 145us | Physics Error: 2.36317 | B-Field: [0.102937, -0.152473, 0.354476]
+T+9 | Q-DT: 58us | Physics Error: 2.43699 | B-Field: [0.108473, -0.152412, 0.365549]
+=======================================
+[SUCCESS] Quantized Stream Run Finished.
