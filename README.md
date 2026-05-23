@@ -1,4 +1,7 @@
 # AETHER-Q: Hardware-Accelerated GNN Inference Engine
+<p align="center">
+  <img src="media/dashboard_demo.gif" alt="ARGUS-Q Dashboard Live Demo" width="100%" max-width="900px">
+</p>
 
 AETHER-Q is an ultra-low latency, zero-heap C++ edge inference engine designed to execute Graph Neural Networks (GNNs) natively on localized architectures. By bypassing heavy runtime deep learning frameworks, it leverages the Eigen linear algebra library to achieve deterministic, microsecond-level execution.
 
