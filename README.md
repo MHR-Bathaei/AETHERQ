@@ -17,8 +17,36 @@ AETHER-Q is an ultra-low latency, zero-heap C++ edge inference engine designed t
 * GCC/G++ compiler toolchain with C++17 support.
 * Eigen library headers extracted into your compiler's search path.
 
-### 1. Run the SIMD Vectorized Hardware Profiler
+### Run the SIMD Vectorized Hardware Profiler
 To run the 5,000-trial benchmark tracking Advanced Vector Extensions (AVX2) and Fused Multiply-Accumulate (FMA) execution speeds:
 ```bash
 g++ -O3 -mavx2 -mfma -march=native -I ./src src/benchmarker.cpp -o benchmarker_simd
 ./benchmarker_simd
+```
+
+---
+
+## Project Evolution: AETHERQ-GPU
+
+The AVX2/FMA implementation in this repository served as the baseline for a follow-up CUDA study focused on throughput-oriented graph inference.
+
+The resulting project, **AETHERQ-GPU**, reimplements the projection workload using a massively parallel CUDA execution model, mapping independent inference iterations across the GPU execution grid.
+
+### Comparison
+
+| Implementation | Execution Model                     |
+| -------------- | ----------------------------------- |
+| AETHER-Q       | AVX2/FMA vectorized CPU inference   |
+| AETHERQ-GPU    | CUDA-parallel batched GPU inference |
+
+The GPU implementation achieved a measured **97.1× throughput improvement** on a benchmark consisting of 5,000 independent projection iterations executed concurrently on an NVIDIA RTX 4060 Laptop GPU.
+
+**Repository:** https://github.com/MHR-Bathaei/AETHERQ-GPU
+
+```text
+AETHER-Q (CPU SIMD)
+        ↓
+AETHERQ-GPU (CUDA)
+```
+
+Together, the two repositories document the progression from CPU SIMD optimization to GPU-parallel execution strategies for graph neural network workloads.
